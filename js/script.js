@@ -165,11 +165,3 @@ const observerHistoria = new IntersectionObserver((entries) => {
 if (seccionHistoria) {
   observerHistoria.observe(seccionHistoria);
 }
-
-// Función para mostrar el alias de regalo
-function mostrarAlias() {
-  const aliasDiv = document.getElementById('alias-regalo');
-  if (aliasDiv) {
-    aliasDiv.style.display = aliasDiv.style.display === 'none' ? 'block' : 'none';
-  }
-}
